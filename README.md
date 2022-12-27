@@ -1,4 +1,6 @@
-#Code Explanation by Denigma
+Code Explanation by Akshay Deshmukh
+
+
 The code starts by importing the Google Speech Recognition library.
 The code then creates a variable called sr which is of type speech_recognition.
 The code then starts an infinite loop that listens to audio from the microphone and converts it into text with Google Speech Recognition.
