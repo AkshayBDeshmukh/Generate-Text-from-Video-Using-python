@@ -1,6 +1,5 @@
 import speech_recognition as sr 
 r = sr.Recognizer() 
- 
 def Convert_to_text(): 
     with sr.Microphone() as source: 
         print("Speak Now...")
@@ -13,6 +12,6 @@ def Convert_to_text():
     except sr.RequestError as e: 
         print("Could not request results from Google Speech Recognition service; {0}".format(e)) 
     return generated_text 
- 
+
 if __name__ == '__main__': 
     Convert_to_text() 
